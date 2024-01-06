@@ -1,4 +1,4 @@
-const allUsers = [
+const allUserss = [ //перейменував змінну, бо є конфлікт імен з task-2
     {
     name: "Moore Hensley",
     gender: "male",
@@ -42,6 +42,6 @@ const getTotalBalanceByGender = (users, gender) => {
 }, 0);
 }
 
-console.log(getTotalBalanceByGender(allUsers, "male")); // 12053
+console.log(getTotalBalanceByGender(allUserss, "male")); // 12053
 
-console.log(getTotalBalanceByGender(allUsers, "female")); // 8863
+console.log(getTotalBalanceByGender(allUserss, "female")); // 8863
